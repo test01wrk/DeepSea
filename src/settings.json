@@ -22,6 +22,7 @@
                 "deepseatoolbox",
                 "aioupdater",
                 "edizon",
+		"edizon-overlay-fix",
                 "emuiibo",
                 "jksv",
                 "nxmtp",
@@ -44,6 +45,7 @@
                 "deepseatoolbox",
                 "aioupdater",
                 "edizon",
+		"edizon-overlay-fix",
                 "emuiibo",
                 "jksv",
                 "nxmtp",
@@ -467,6 +469,16 @@
                 {
                     "name": "delete",
                     "arguments": ["atmosphere/contents/010000000000bd00/flags/boot2.flag"]
+                }
+            ]
+        },
+        "edizon-overlay-fix": {
+            "repo": "proferabg/EdiZon-Overlay",
+            "regex": [".*EdiZon-Overlay.*\\.zip"],
+            "steps": [
+                {
+                    "name": "extract",
+                    "arguments": [".*EdiZon-Overlay.*\\.zip"]
                 }
             ]
         }
